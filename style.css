@@ -8,6 +8,10 @@
     text-align: center;
 }
 
+#encabezado h1 {
+    margin-top: 15px;
+}
+
 nav h2 {
     margin-left: 20px;
     margin-top: 6px;
