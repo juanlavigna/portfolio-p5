@@ -7,3 +7,7 @@
 #encabezado p {
     text-align: center;
 }
+
+nav h2 {
+    margin-left: 20px;
+}
