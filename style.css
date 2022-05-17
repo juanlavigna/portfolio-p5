@@ -22,7 +22,7 @@ nav h2 {
 }
 
 #portfolio {
-    background-color: aqua;
+    background-color: rgb(29, 68, 68);
     height: auto;
     margin-top: 50px;
 }
@@ -31,6 +31,7 @@ nav h2 {
     padding-top: 50px;
     text-align: center;
     margin-bottom: 50px;
+    color: white;
 }
 
 #portfolio img {
@@ -38,7 +39,6 @@ nav h2 {
     height: 300px;
     border-radius: 20px;
 }
-/* 
-#portfolio .container {
-    margin-left: 5%;
-} */
+ #portfolio .row {
+     justify-content: center;
+ }
