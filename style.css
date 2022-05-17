@@ -35,10 +35,12 @@ nav h2 {
 }
 
 #portfolio img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: auto; 
     border-radius: 20px;
+    margin-bottom: 100px;
 }
  #portfolio .row {
      justify-content: center;
+     gap: 80px;
  }
