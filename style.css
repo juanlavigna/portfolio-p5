@@ -57,6 +57,7 @@ nav h2 {
 
 #contacto .formu {
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 #contacto h2 {
@@ -66,3 +67,25 @@ nav h2 {
 #contacto label {
     margin-bottom: 10px;
 }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    background-color: #212529;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration:solid;
+    border-radius: 50%;
+  }
+
+  .social-media,
+  .direccion {
+      margin: 30px auto;
+  }
