@@ -1,10 +1,12 @@
 * {
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
-
+.container-fluid nav{
+    justify-content: space-between;
+}
 #foto-carnet {
     margin-top: 30px;
-    width: 30%;
+    width: 50vh;
 }
 
 #encabezado h1,
@@ -25,6 +27,11 @@ nav h2 {
     background-color: rgb(29, 68, 68);
     height: auto;
     margin-top: 50px;
+}
+.centrar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #portfolio h2 {
@@ -89,3 +96,25 @@ footer {
   .direccion {
       margin: 30px auto;
   }
+
+#contacto label{
+    color: white
+}
+
+#about-me{
+    text-align: center;
+}
+
+#about-me h2{
+    margin-top: 100px;
+}
+ 
+#about-me p{
+    padding: 0 50px;
+    padding-bottom: 5rem;
+
+} 
+
+a {
+    display: inline;
+} 
